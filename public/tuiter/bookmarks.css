@@ -1,0 +1,167 @@
+div {
+    position: relative;
+}
+
+body {
+    background-color: #202020;
+    color: white;
+    font: 13px Helvetica;
+}
+
+p {
+    font-size: 12px;
+    padding-left: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bg-color-dark
+{ background-color: #202020; }
+.bg-color-gray
+{ background-color: rgb(110, 118, 125); }
+.bg-color-blue
+{ background-color: #7070ff; }
+
+.fg-color-white { color: white; }
+.fg-color-black { color: black; }
+.fg-color-blue { color: rgb(29,161,242); }
+.fg-color-gray { color: rgb(110, 118, 125);}
+
+.wd-font-title {
+    color: white;
+    font: 20px Arial;
+    font-weight: bold;
+}
+
+.wd-font {
+    color: gray;
+    font: 12px Helvetica;
+}
+
+.wd-font-author {
+    font: 15px Helvetica;
+}
+
+.wd-font-content {
+    font: 15px Helvetica;
+}
+
+.wd-padded {
+    padding-top: 12px;
+    padding-left: 16px;
+    display:inline-block;
+}
+
+.wd-padded-all {
+    padding: 12px;
+}
+
+.wd-padded-top {
+    padding-top: 5px;
+}
+
+.wd-padded-right {
+    padding-right: 5px;
+}
+
+.wd-padded-left-small-no-top {
+    padding-left: 12px;
+    display:inline-block;
+}
+
+.wd-content-padding {
+    padding-left: 76px;
+    padding-top: 12px;
+    padding-bottom: 20px;
+    display:inline-block;
+}
+
+.wd-padded-left-small {
+    padding-top: 12px;
+    padding-left: 12px;
+}
+
+.wd-padded-top {
+    padding-top: 12px;
+}
+
+.wd-padded-left {
+    padding-left: 16px;
+    padding-bottom: 1px;
+}
+
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-rounded-corners-image {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.wd-img {
+  border-radius: 50%;
+}
+
+.wd-div-height {
+    height: 100%;
+}
+
+.wd-border-big {
+    border-style: solid solid none solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-border-content {
+    border-color: rgb(47, 51, 54);
+    border-style: solid solid solid solid;
+    width: 476px;
+    border-size: 0.1px;
+}
+
+.wd-rounded-corners-bottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.wd-border-final {
+    border-style: solid none none none;
+    border-color: rgb(47, 51, 54);
+    border-size: 0.2px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-float-left-icons {
+    float: left;
+    width: 25%;
+}
+
+.wd-float-inherit {
+    float: inherit;
+}
+
+.wd-float-done {
+    clear: both;
+}
+
+.wd-width-max {
+    max-width: 506px;
+}
+
+.wd-dimension-box {
+    width: 0px;
+    height: 0px;
+}
+
+.grid-row {
+    clear: both;
+}
+
+
+
+
