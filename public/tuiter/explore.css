@@ -1,136 +1,37 @@
-div {
-  position: relative;
-}
-
-body {
-    background-color: #202020;
-    color: white;
-    font: 13px Helvetica;
-}
-
-p {
-    font-size: 12px;
-    padding: 16px;
-}
-
-.wd-rounded-corners-all-around {
-    border-radius: 50px;
-}
-
-.wd-rounded-corners-image {
-    border-radius: 10px;
-}
-
-.bg-color-dark
-{ background-color: #202020; }
-.bg-color-gray
-{ background-color: rgb(110, 118, 125); }
-.bg-color-blue
-{ background-color: #7070ff; }
-
-.fg-color-white { color: white; }
-.fg-color-black { color: black; }
 .fg-color-blue { color: rgb(29,161,242); }
-.fg-color-gray { color: rgb(110, 118, 125);}
+.fg-color-gray { color: gray; }
 
-.wd-padded-left {
-  padding: 16px;
+.ellipsis-style {
+    color: white;
+    font-size: 10px;
 }
 
-.wd-input-width {
-  width: 90%;
+.font {
+    font-size: 13px;
 }
 
-.wd-pos-relative {
-    position: relative;
+.bolded {
+    font-weight: bold;
 }
 
-.wd-padded {
-  padding: 10px;
-}
-
-.wd-p-below {
-  padding-bottom: 5px;
-}
-
-.wd-margin-all-around {
-    margin: 30px;
-}
-
-.wd-grid-row {
-    clear: both;
-}
-
-
-.wd-font-bigger {
-    font-size: 14px;
-}
-
-.wd-font-smaller {
-     font-size: 13px;
-}
-
-.wd-font-fancy {
-     font-family: Times New Roman;
-     font-wight: bold;
-}
-
-.wd-border {
-    width: 200px;
-    color: rgb(29,161,242);
-    border-bottom: 2px solid;
-    padding-bottom: 5px;
-    position: relative;
-}
-
-.wd-border-big {
-    border-style: solid solid none solid;
-    border-color: rgb(47, 51, 54);
-    border-size: 0.2px;
-}
-
-.wd-border-final {
-    border-style: solid none none none;
-    border-color: rgb(47, 51, 54);
-    border-size: 0.2px;
-}
-
-.wd-box {
-  height: 4px;
-  width: ridge;
-  position: relative;
-  background: #404040;
-}
-
-.wd-float-left {
+.main-content {
     float: left;
-    width: 15%;
+    margin-right: 20px;
+    width: 100%;
 }
 
-.wd-float-right {
+.float-right {
     float: right;
-    height: 100px;
-    margin-right: 16px;
 }
 
-.wd-float-right-corner {
-    float: right;
-    margin-right: 12px;
+.image-card {
+    position: relative;
+    text-align: center;
 }
 
-
-.wd-float-done {
-    clear: both;
-}
-
-.wd-bold {
-  font-weight: bold;
-}
-
-.wd-margin-all-around {
-    margin: 30px;
-}
-
-.wd-div-height {
-  height: 100px;
+.image-text {
+    bottom: 5px;
+    left: 15px;
+    position: absolute;
+    color: white;
 }
