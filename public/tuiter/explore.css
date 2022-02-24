@@ -35,3 +35,28 @@
     position: absolute;
     color: white;
 }
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 15px;
+    min-width: 40px;
+    font-size: 17px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.vertical {
+    vertical: absolute;
+}
