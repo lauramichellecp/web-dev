@@ -1,0 +1,63 @@
+.fg-color-blue { color: rgb(29,161,242); }
+.fg-color-gray { color: gray; }
+.gray { color: rgb(110, 118, 125); }
+
+.ellipsis-style {
+    color: white;
+    font-size: 10px;
+}
+
+.font {
+    font-size: 13px;
+}
+
+.bolded {
+    font-weight: bold;
+}
+
+.main-content {
+    float: left;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.float-right {
+    float: right;
+}
+
+.image-card {
+    position: relative;
+    text-align: center;
+}
+
+.image-text {
+    bottom: 5px;
+    left: 15px;
+    position: absolute;
+    color: white;
+}
+
+.input-icons i {
+    position: absolute;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    padding: 15px;
+    min-width: 40px;
+    font-size: 17px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.vertical {
+    vertical: absolute;
+}
