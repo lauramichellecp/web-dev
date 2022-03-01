@@ -65,7 +65,7 @@ const NavigationSidebar = () => {
                     <div class="row" style="flex-wrap: nowrap;">
                         <div class="col-2 fa-stack">
                             <i class="fas fa-circle fa-stack-1x"></i>
-                            <i class="fas fa-ellipsis-h fa-stack-1x ellipsis-style gray"></i>
+                            <i class="fas fa-ellipsis-h fa-stack-1x ellipsis-style"></i>
                         </div>
                     </div>
                 </a>
