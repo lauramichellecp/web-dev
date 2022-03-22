@@ -7,7 +7,7 @@ const PostSummaryList = () => {
     <>
         <ul className="list-group ">
             <div className="image-card">
-                <img className="card-img-top pt-2" src="/tuiter/pic/spacex.jpg" alt="spacex image"/>
+                <img className="card-img-top pt-2" src="/tuiter/pic/spacex.jpg" alt=""/>
                 <h2 className="image-text">SpaceX's Starship</h2>
             </div>
             {
