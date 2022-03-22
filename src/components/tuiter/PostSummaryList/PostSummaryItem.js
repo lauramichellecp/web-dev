@@ -21,7 +21,7 @@ const PostSummaryItem = (
                     <span className="bolded">{post.title}</span>
                 </span>
                 <span className="col-4">
-                    <img className="rounded float-right" src={post.image} width="80px" />
+                    <img className="rounded float-right" src={post.image} alt="item image" width="80px" />
                 </span>
             </div>
         </li>

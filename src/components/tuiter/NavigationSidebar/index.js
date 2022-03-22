@@ -69,11 +69,12 @@ const NavigationSidebar = (
                     </div>
                 </a>
                 <a href="more.html" className={`list-group-item ${active === 'more' ? 'active' : ''}`}>
-                    <div className="row" style={{flexWrap: 'nowrap'}}>
+                    <div className="row">
                         <div className="col-2 fa-stack">
                             <i className="fas fa-circle fa-stack-1x"></i>
                             <i className="fas fa-ellipsis-h fa-stack-1x ellipsis-style"></i>
                         </div>
+                        <div className="col-8 d-none d-xl-block">More</div>
                     </div>
                 </a>
             </div>
