@@ -1,5 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
+import ReduxExamples from "./redux-examples";
 
 import Classes from "./classes";
 import Styles from "./styles";
@@ -16,10 +17,7 @@ const Labs = () => {
             <Link to="/tuiter">
                 Tuiter
             </Link>
-          <ConditionalOutput/>
-          <Styles/>
-          <Classes/>
-          <TodoList/>
+          <ReduxExamples/>
       </div>
     )
 };
