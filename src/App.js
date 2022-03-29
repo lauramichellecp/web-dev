@@ -18,8 +18,10 @@ const App = () => {
      <div className="container">
        <Routes>
          <Route path="/">
+           <Route index element={<Labs />} />
            <Route path="labs"
-                  element={<Labs/>}/>
+                  exact={true}
+                  element={<Labs />} />
            <Route path="hello"
                   element={<HelloWorld/>}/>
            <Route path="tuiter"
