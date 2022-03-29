@@ -1,5 +1,4 @@
 import React from "react";
-import {Provider} from "react-redux";
 import {Link, Outlet} from "react-router-dom";
 
 import NavigationSidebar from "./NavigationSidebar";
@@ -7,9 +6,12 @@ import WhoToFollowList
        from "./WhoToFollowList";
 import PostSummaryList from "./PostSummaryList";
 import ExploreScreen from "./ExploreScreen";
+
 import whoReducer from "./reducers/WhoReducer";
 import TuitsReducer from "./reducers/TuitsReducer";
 import {combineReducers, createStore} from "redux";
+import {Provider} from "react-redux";
+
 
 const reducer = combineReducers({tuits: TuitsReducer, who: whoReducer});
 const store = createStore(reducer);
