@@ -2,11 +2,6 @@ import React from "react";
 import {Link} from "react-router-dom";
 import ReduxExamples from "./redux-examples";
 
-import Classes from "./classes";
-import Styles from "./styles";
-import ConditionalOutput from "./conditional-output";
-import TodoList from "./todo/todo-list"
-
 const Labs = () => {
     return(
       <div>

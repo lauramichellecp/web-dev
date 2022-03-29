@@ -4,8 +4,6 @@ import {Link, Outlet} from "react-router-dom";
 import NavigationSidebar from "./NavigationSidebar";
 import WhoToFollowList
        from "./WhoToFollowList";
-import PostSummaryList from "./PostSummaryList";
-import ExploreScreen from "./ExploreScreen";
 
 import whoReducer from "./reducers/WhoReducer";
 import TuitsReducer from "./reducers/TuitsReducer";

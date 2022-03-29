@@ -12,6 +12,7 @@ const TuitListItem = ({tuit}) => {
         <div className="list-group-item">
             <div className="align-text-top">
                 <img className="rounded-circle wd-avatar-image"
+                     alt="..."
                      src={tuit['logo-image']}/>
             </div>
             <div className="ps-3" style={{width: '100%'}}>
@@ -25,6 +26,7 @@ const TuitListItem = ({tuit}) => {
                 {
                     tuit.attachments && tuit.attachments.image &&
                     <img src={tuit.attachments.image}
+                         alt="..."
                          className="mt-2 wd-border-radius-20px"
                          style={{width: "100%"}}/>
                 }
