@@ -1,4 +1,3 @@
-import React from "react";
 import {useDispatch} from "react-redux";
 
 const TuitStats = ({tuit}) => {
@@ -30,7 +29,6 @@ const TuitStats = ({tuit}) => {
         <div className="col">
             <i className="fas fa-external-link-alt me-2"></i>
         </div>
-    </div>)
-}
-
+    </div>);
+};
 export default TuitStats;

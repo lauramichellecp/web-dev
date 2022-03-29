@@ -12,6 +12,5 @@ const TuitList = () => {
       }
     </ul>
   );
-}
-
+};
 export default TuitList;

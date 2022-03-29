@@ -11,7 +11,7 @@ const WhatsHappening = () => {
   }
   return (
     <>
-      <div className="row">
+      <div className="row pb-3">
             <textarea className="bg-black form-control"
                 value={whatsHappening}
                 placeholder="What's happening?"
@@ -19,11 +19,11 @@ const WhatsHappening = () => {
                   setWhatsHappening(event.target.value)
                 }>
             </textarea>
-          <div className="col-md-10">
-              <i className="fas fa-image pe-1 blue"></i>
-              <i className="fas fa-chart-bar pe-1 blue"></i>
-              <i className="fas fa-smile pe-1 blue"></i>
-              <i className="fas fa-calendar pe-1 blue"></i>
+          <div className="col-md-10 pt-2">
+              <i className="fas fa-image fa-lg pe-1 blue"></i>
+              <i className="fas fa-chart-bar fa-lg pe-1 blue"></i>
+              <i className="fas fa-smile fa-lg pe-1 blue"></i>
+              <i className="fas fa-calendar fa-lg pe-1 blue"></i>
           </div>
           <div className="col-md-2">
               <button className="btn btn-primary rounded-pill float-right" onClick={tuitClickHandler}>

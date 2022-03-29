@@ -5,7 +5,7 @@ import TuitStats from "./TuitStats";
 
 const TuitListItem = ({tuit}) => {
     const dispatch = useDispatch();
-    const deleteTuitClickHandler = (tuit) => {
+    const deleteTuitClickHandler = () => {
         dispatch({type: 'delete-tuit', tuit})
     }
     return(
@@ -16,7 +16,7 @@ const TuitListItem = ({tuit}) => {
                      src={tuit['logo-image']}/>
             </div>
             <div className="ps-3" style={{width: '100%'}}>
-                <i onClick={deleteTuitClickHandler(tuit)} className="fa fa-remove fa-pull-right"></i>
+                <i onClick={deleteTuitClickHandler} className="fa fa-remove fa-pull-right"></i>
                 <span className="fw-bold">{tuit.userName}</span>
                 {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
                 <span className="ms-1 text-secondary">@{tuit.handle}</span>
@@ -40,7 +40,6 @@ const TuitListItem = ({tuit}) => {
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen></iframe>
                 }
-                {/*{JSON.stringify(tuit)}*/}
                 <TuitStats tuit={tuit}/>
             </div>
         </div>

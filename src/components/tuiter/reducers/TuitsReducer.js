@@ -10,16 +10,17 @@ const TuitsReducer = (state = tuits, action) => {
                   postedBy: {
                       "username": "ReactJS"
                   },
+                  handle: "Laura",
                   stats: {
                       retuits: 111,
                       likes: 222,
                       replies: 333
                   },
                   attachments: {
-                      img: "https://cdn.hashnode.com/res/hashnode/image/upload/v1622008722227/ResNcwZyph.png"
+                      img: "/tuiter/pic/profile.jpg"
                   },
                   time: "last month",
-                  avatarImg: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+                  avatarImg: "/tuiter/pic/profile.jpg"
               }
               return [
                   newTuit,
