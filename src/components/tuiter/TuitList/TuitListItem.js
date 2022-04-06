@@ -1,27 +1,26 @@
 import React from "react";
 import "./tuit.css";
 import {useDispatch} from "react-redux";
+import {deleteTuit} from "../actions/tuits-actions";
+
 import TuitStats from "./TuitStats";
 
 const TuitListItem = ({tuit}) => {
     const dispatch = useDispatch();
-    const deleteTuitClickHandler = () => {
-        dispatch({type: 'delete-tuit', tuit})
-    }
+
     return(
         <div className="list-group-item">
             <div className="align-text-top">
                 <img className="rounded-circle wd-avatar-image"
                      alt="..."
-                     src={tuit['logo-image']}/>
+                     src={tuit.avatarImg}/>
             </div>
             <div className="ps-3" style={{width: '100%'}}>
-                <i onClick={deleteTuitClickHandler} className="fa fa-remove fa-pull-right"></i>
-                <span className="fw-bold">{tuit.userName}</span>
-                {tuit.verified && <i className="ms-1 fas fa-badge-check"></i>}
-                <span className="ms-1 text-secondary">@{tuit.handle}</span>
-                <div>
-                    {tuit.tuit}
+                <i className="fas fa-trash fa-pull-right"
+                  onClick={() => deleteTuit(dispatch, tuit)}></i>
+                <div className="wd-float-left">
+                    <span className="wd-gray-text">@{tuit.handle} • {tuit.time}</span>
+                    <p className="wd-post-text">{tuit.tuit}</p>
                 </div>
                 {
                     tuit.attachments && tuit.attachments.image &&

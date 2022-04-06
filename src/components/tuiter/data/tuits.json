@@ -14,12 +14,13 @@
     "attachments": {
       "video": "unKvMC3Y1kI"
     },
-    "logo-image": "/tuiter/pic/react.jpg",
-    "avatar-image": "/tuiter/pic/react.jpg",
+    "logoImg": "/tuiter/pic/react.jpg",
+    "avatarImg": "/tuiter/pic/react.jpg",
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 2
     }
   },
   {
@@ -37,13 +38,14 @@
       "image": "/tuiter/pic/spacex.png"
     },
     "time": "last month",
-    "logo-image": "/tuiter/pic/nodejs.jpg",
-    "avatar-image": "/tuiter/pic/nodejs.jpg",
+    "logoImg": "/tuiter/pic/nodejs.jpg",
+    "avatarImg": "/tuiter/pic/nodejs.jpg",
     "tuits": "120K",
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 2
     }
   },
   {
@@ -59,13 +61,15 @@
     "time": "1 day",
     "title": "JavaScript is programming language that can run on browsers as well as desktops",
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-    "logo-image": "/tuiter/pic/javascript.png",
-    "avatar-image": "/tuiter/pic/javascript.png",
+    "logoImg": "/tuiter/pic/javascript.png",
+    "avatarImg": "/tuiter/pic/javascript.png",
     "tuits": "123K",
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 2
+
     }
   },
   {
@@ -80,13 +84,14 @@
     "title": "jQuery",
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time": "last week",
-    "logo-image": "/tuiter/pic/jquery.png",
-    "avatar-image": "/tuiter/pic/jquery.png",
+    "logoImg": "/tuiter/pic/jquery.png",
+    "avatarImg": "/tuiter/pic/jquery.png",
     "tuits": "122K",
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 2
     }
   },
   {
@@ -101,13 +106,14 @@
     "title": "",
     "tuit": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     "time": "last month",
-    "logo-image": "/tuiter/pic/react.jpg",
-    "avatar-image": "/tuiter/pic/react.jpg",
+    "logoImg": "/tuiter/pic/react.jpg",
+    "avatarImg": "/tuiter/pic/react.jpg",
     "tuits": "120K",
     "stats": {
       "comments": 123,
       "retuits": 234,
-      "likes": 345
+      "likes": 345,
+      "dislikes": 2
     }
   }
 ]
