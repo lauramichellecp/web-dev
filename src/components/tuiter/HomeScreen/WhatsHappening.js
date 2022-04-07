@@ -5,7 +5,6 @@ import {createTuit} from "../actions/tuits-actions";
 import "./index.css";
 
 const WhatsHappening = () => {
-  let [whatsHappening, setWhatsHappening] = useState('');
   const dispatch = useDispatch();
   const [newTuit, setNewTuit] = useState({tuit: 'New tuit'});
   return (

@@ -10,7 +10,6 @@ import TuitsReducer from "./reducers/TuitsReducer";
 import {combineReducers, createStore} from "redux";
 import {Provider} from "react-redux";
 
-
 const reducer = combineReducers({tuits: TuitsReducer, who: whoReducer});
 const store = createStore(reducer);
 
