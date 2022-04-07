@@ -5,8 +5,8 @@ import TuitListItem from "./TuitListItem";
 
 const TuitList = () => {
     const tuits = useSelector(state => state.tuits);
-    const dispatc = useDispatch();
-    useEffect(() => findAllTuits(dispatc), []);
+    const dispatch = useDispatch();
+    useEffect(() => findAllTuits(dispatch), []);
     return (
         <ul className="list-group">
             {
